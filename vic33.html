@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week-end magique à Amsterdam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #1a1a1a;
+      overflow-x: hidden;
+    }
+    .banner-video {
+      position: relative;
+      width: 100%;
+      height: 60vh;
+      overflow: hidden;
+    }
+    .banner-video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+    .banner-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+    .banner-content {
+      position: relative;
+      z-index: 2;
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .banner-content h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #c94081;
+      margin-top: 3rem;
+    }
+    section {
+      margin-bottom: 4rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+    iframe.video {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      margin-top: 1rem;
+    }
+    .card-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card-gallery .card {
+      background: #f5f5f5;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .card-gallery .card:hover {
+      transform: scale(1.02);
+    }
+    .card-gallery img {
+      width: 100%;
+      display: block;
+    }
+    .card-gallery .caption {
+      padding: 1rem;
+      font-size: 1rem;
+      color: #555;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner-video">
+    <iframe src="https://www.youtube.com/embed/LV3a5SiSUaQ?autoplay=1&mute=1&controls=0&loop=1&playlist=LV3a5SiSUaQ" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Amsterdam teaser"></iframe>
+    <div class="banner-overlay"></div>
+    <div class="banner-content">
+      <h1>Week-end magique à Amsterdam pour les 33 ans de Vic</h1>
+    </div>
+  </div>
+  <main>
+    <section>
+      <h2>Ma chère petite femme de ma vie</h2>
+      <p>Tu mérites un petit moment de détente et un cadeau inoubliable. Maintenant que tu as l'âge du Christ, il est temps que tu fasses une petite crise de foie... mais joyeuse, le temps d’un week-end.</p>
+      <p>Voici un petit moment que je t’ai préparé avec le plus grand soin. Tu es une mère exceptionnelle, une petite femme parfaite, et je t’aime plus que tout mon amour ❤️</p>
+    </section>
+    <section>
+      <h2>Destination Amsterdam</h2>
+      <ul>
+        <li>± 200 km de la Belgique (2h train ou 2h30 voiture)</li>
+        <li>Climat mai-juin : doux, 18–22°C</li>
+        <li>Ambiance romantique, arty, joyeuse</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Programme Jour 1</h2>
+      <ul>
+        <li>Arrivée et installation dans un hôtel cosy (Jordaan)</li>
+        <li><a href="https://www.micropia.nl/en/" target="_blank">Visite de Micropia</a> & balade au parc Artis</li>
+        <li>Dîner au bord du canal</li>
+        <li><a href="https://www.finddoor74.com/" target="_blank">Cocktails au Door 74</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Programme Jour 2</h2>
+      <ul>
+        <li>Petit-déjeuner gourmand</li>
+        <li><a href="https://www.canalsup.nl/" target="_blank">Paddle sur les canaux</a> ou vélo</li>
+        <li><a href="https://www.electric-lady-land.com/" target="_blank">Visite Electric Ladyland</a></li>
+        <li>Lunch au Vondelpark</li>
+        <li><a href="https://www.adamlookout.com/" target="_blank">A'DAM Lookout + balançoire suspendue</a></li>
+        <li><a href="https://www.sherlocked.nl" target="_blank">Escape game</a> ou spa détente</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Vidéos immersives</h2>
+      <iframe class="video" src="https://www.youtube.com/embed/3izVLop9iKg" allowfullscreen></iframe>
+      <iframe class="video" src="https://player.vimeo.com/video/1013099628?autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0" allowfullscreen></iframe>
+    </section>
+    <section>
+      <h2>Galerie Souvenirs</h2>
+      <div class="card-gallery">
+        <div class="card">
+          <img src="https://i.postimg.cc/02SCff89/1.png" alt="Billets Amsterdam">
+          <div class="caption">Billets vers Amsterdam – valables 3 mois</div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/SQJdX432/2.png" alt="Techno 1992">
+          <div class="caption">Big Bang technologique de Vic – 1992</div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/MXJZmtdc/3.png" alt="Big Bang historique">
+          <div class="caption">Big Bang historique – 16 mai 1992</div>
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/ZRfyjkdW/4.png" alt="Woodstock à Amsterdam">
+          <div class="caption">Woodstock à Amsterdam – Vic et Greg</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Et surtout...</h2>
+      <p>Il n'y a rien que j’aime plus que de te voir sourire. Ce week-end, cette parenthèse… c’est pour toi. Pour te remercier d’être cette femme incroyable, maman sublime, et mon amour pour la vie.</p>
+      <p><strong>Ton homme pour la vie,</strong><br/>Greg 💘</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 — Cadeau préparé avec amour par Greg
+  </footer>
+</body>
+</html>
+
